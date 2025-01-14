@@ -1,0 +1,12 @@
+
+
+saya mau ambil nilai 7 aja ?
+
+keranjang hasil = 7,
+
+1,2,4,   7    ,3,1,5,7,8,5,9,1,3,6,2,6,5,5,5,5,1
+
+
+1. cek satu2 dari kiri ke kanan atau dari awal ke ujung             => pake looping
+2. di setiap pengecekan, dicek apakah sama dengan yang mau dicari   => pengecekan (if) didalem looping
+3. kalau sama, masukkan ke keranjang hasil                          => array push

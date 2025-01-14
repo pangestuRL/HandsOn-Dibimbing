@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Resize</title>
+
+  </head>
+
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+
+    <script>
+
+      function onResize() {
+
+        console.log("Window resized!");
+
+      }
+
+      window.addEventListener("resize", _.debounce(onResize, 100));
+
+    </script>
+
+  </body>
+
+</html>
