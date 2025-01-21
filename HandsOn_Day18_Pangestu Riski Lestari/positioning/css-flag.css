@@ -1,0 +1,24 @@
+.color1 {
+    height: 300px;
+    background-color: red;
+}
+
+.color2 {
+    position: relative;
+    height: 300px;
+    background-color: white;
+}
+
+.color3 {
+    height: 300px;
+    background-color: black;
+}
+
+.icon {
+    height: 150px;
+    position: absolute;
+    top: 75px;
+    right: 50vw 
+    /* vw = view width; vh = view hight; buat lebar atau tinggi view browser karena kita tdk tahu ukuran pastinya.
+    angkanya pakai persentase, kalo 50 brarti 50 persen dr lebar atau tinggi halaman tersebut        */
+}

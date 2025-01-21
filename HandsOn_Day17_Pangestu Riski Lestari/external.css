@@ -1,0 +1,30 @@
+/* Mengubah background halaman menjadi hijau */
+body {
+    background-color: green;
+  }
+  
+  /* Mengubah warna teks h1 menjadi hitam */
+  h1 {
+    color: black;
+  }
+  
+  /* Styling untuk paragraf pertama: Bold, Font 16px, Align Right */
+  p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+  }
+  
+  /* Styling untuk paragraf kedua: Underline, Font 24px, Align Center */
+  p:nth-of-type(2) {
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Styling untuk paragraf ketiga: Italic, Font 12px, Align Left */
+  p:nth-of-type(3) {
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+  }
