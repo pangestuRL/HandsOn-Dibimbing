@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage component test should render 1`] = `
+<div>
+  <label
+    for="username"
+  >
+    username
+  </label>
+  <input
+    id="username"
+    type="text"
+  />
+  <label
+    for="password"
+  >
+    password
+  </label>
+  <input
+    id="password"
+    type="password"
+  />
+  <button>
+    login
+  </button>
+</div>
+`;
